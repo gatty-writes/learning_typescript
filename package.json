@@ -1,0 +1,23 @@
+{
+  "name": "learning_typescript",
+  "version": "1.0.0",
+  "description": "This is the repository just created to learn the typescript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatty-writes/learning_typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gatty-writes/learning_typescript/issues"
+  },
+  "homepage": "https://github.com/gatty-writes/learning_typescript#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
