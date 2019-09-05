@@ -39,3 +39,33 @@ var customValues;
 })(customValues || (customValues = {}));
 var cus = customValues.value1;
 console.log(cus);
+// function returns string
+function returnUsername() {
+    return userName;
+}
+console.log(returnUsername());
+// function which retruns void
+function samppleVoidFunction() {
+    console.log('this is a void function');
+}
+// calling the void function
+samppleVoidFunction();
+// specifying the types to the arguments
+function multiply(val1, val2) {
+    return val1 * val2;
+}
+console.log(multiply(4, 5));
+// Objects 
+var userData = {
+    name: 'ajith',
+    age: 28
+};
+console.log(userData);
+//complex objects
+var complex = {
+    data: [1, 2, 4],
+    output: function (all) {
+        return this.data;
+    }
+};
+console.log(complex);
