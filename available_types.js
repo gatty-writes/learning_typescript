@@ -69,3 +69,21 @@ var complex = {
     }
 };
 console.log(complex);
+var complex2 = {
+    data: [4, 5, 6],
+    output: function (all) {
+        return this.data;
+    }
+};
+console.log(complex2);
+// union types
+var myAge = 27;
+myAge = '27';
+// check the types
+var str = 45;
+if (typeof str == 'string') {
+    console.log('str is a string');
+}
+else {
+    console.log('str is not a string');
+}

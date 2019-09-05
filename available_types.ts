@@ -86,3 +86,26 @@ let complex: {data: number[], output: (all: boolean) => number[]} = {
 }
 
 console.log(complex);
+
+// type aliasing
+type Complex = {data: number[], output: (all: boolean) => number[]};
+let complex2: Complex = {
+    data: [4, 5, 6],
+    output: function(all: boolean): number[] {
+        return this.data;
+    }
+}
+
+console.log(complex2);
+
+// union types
+let myAge: number | string = 27;
+myAge = '27';
+
+// check the types
+let str = 45;
+if(typeof str == 'string') {
+    console.log('str is a string');
+} else {
+    console.log('str is not a string');
+}
